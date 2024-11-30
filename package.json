@@ -1,0 +1,26 @@
+{
+  "name": "secretsanta",
+  "version": "1.0.0",
+  "description": "Website to generate secret santa pairings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "watch": "npx @11ty/eleventy --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DisguisedAxolotl/secretsanta.git"
+  },
+  "author": "DisguisedAxolotl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DisguisedAxolotl/secretsanta/issues"
+  },
+  "homepage": "https://github.com/DisguisedAxolotl/secretsanta#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-pug": "^1.0.0"
+  }
+}
