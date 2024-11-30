@@ -1,4 +1,4 @@
-export default function (eleventyConfig) {
+module.exports = function(eleventyConfig) {
     // Enable passthrough for CSS files
     eleventyConfig.addPassthroughCopy("bundle.css");
     eleventyConfig.addWatchTarget("./views/*");
