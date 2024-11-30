@@ -1,6 +1,7 @@
 export default function (eleventyConfig) {
     // Enable passthrough for CSS files
     eleventyConfig.addPassthroughCopy("bundle.css");
+    eleventyConfig.addWatchTarget("./views/*");
   
     return {
       dir: {
